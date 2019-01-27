@@ -5,7 +5,7 @@ namespace Ordenamiento
     public class Burbujeo
     {
         public static int[] OrdernarPorBurbujeo(int[] lista)
-        {
+        {     
             int cont = 0;
             for (int i = 0; i < lista.Length; i++) //Son n-1 pasadas. 0,1,2,3,4
             {
